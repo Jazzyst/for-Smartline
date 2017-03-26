@@ -1,0 +1,333 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1366px) {
+.slide-item .slide-text {
+		position: absolute;
+		top: 65px;
+		left: 6.3%;
+}
+.slide-item .slide-text h1{
+
+	margin-top: 0px;
+}
+	.slide-item img {
+		height: 450px;
+}
+	.map form{
+		right: 105px;
+	}
+}
+@media only screen and (max-width : 1280px) {
+	header .header-wrap .logo{
+		margin-left: 20px;
+	}
+	.map form{
+		right: 63px;
+	}
+
+}
+
+@media only screen and (max-width : 1200px) {
+	
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1024px) {
+	header .header-wrap .logo{
+		margin-left: 20px;
+	}
+	.slide-item .slide-text {
+		position: absolute;
+		top: 0px;
+		left: 2.3%;
+		width: 252px;
+}
+	.slide-item .slide-text h1 {
+		font-size: 36px;
+		line-height: 48px;
+		font-family: "YesevaOne", sans-serif;
+		color: #fff;
+		margin-top: 31px;
+		margin-left: 0;
+	}
+
+	.slide-item .slide-text p {
+		font-size: 18px;
+		line-height: 24px;
+		margin-top: 3px;
+		color: #fff;
+	}
+
+	.btn {
+		margin-top: 26px;
+		margin-left: 0px;
+	}
+	.btn a.button {
+		background-color: #de0024;
+		color: #fff;
+		font-size: 14px;
+		font-family: "RobotoCondensed-Bold", sans-serif;
+		line-height: 59px;
+		padding: 14px 74px;
+		border-radius: 30px;
+		-webkit-box-shadow: 0px 13px 45px 0px rgba(222,0,36,0.84);
+		-moz-box-shadow: 0px 13px 45px 0px rgba(222,0,36,0.84);
+		box-shadow: 0px 13px 45px 0px rgba(222,0,36,0.84);
+	}
+	.btn a.button:hover{
+		background-color: #95041b;
+	}
+	.slide-item img {
+		height: 314px;
+	}
+	footer .footer-wrap .copy {
+		margin-left: 20px;
+	}
+	footer .footer-wrap .company {
+		margin-right: 20px;
+	}
+	.map form {
+    right: 17px;
+}
+	.map form input.button[type="submit"]{
+		background-color: #de0024;
+	}
+	.map form input.button[type="submit"]:hover{
+		background-color: #95041b;
+	}
+
+	input[type="submit"].button{
+		background-color: #de0024;
+		-webkit-box-shadow: 0px 13px 45px 0px rgba(222,0,36,0.84);
+		-moz-box-shadow: 0px 13px 45px 0px rgba(222,0,36,0.84);
+		box-shadow: 0px 13px 45px 0px rgba(222,0,36,0.84);
+	}
+}
+@media only screen and (max-width : 980px) {
+	
+
+}
+
+@media only screen and (max-width : 960px) {
+	
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 800px) {
+	.map form{
+		width: 400px;
+		height: 600px;
+	}
+
+	.map form .pd h2{
+		font-size: 36px;
+	}
+
+	.map form .pd p{
+		font-size: 14px;
+	}
+	.map form .pd input{
+		width: 300px;
+	}
+	.map form .pd {
+    padding-left: 50px;
+	}
+
+	.map form input.button[type="submit"]{
+		height: 41px;
+		width: 138px;
+		font-size: 14px;
+		line-height: 30px;
+	}
+	
+}
+@media only screen and (max-width : 768px) {
+	.slider-bottom-item{
+		margin: 0 20px
+	}
+	.slider-bottom-wrap .fa-angle-left {
+	   left: 42%;
+
+	}
+	.slider-bottom-wrap .fa-angle-right {
+	    right: 42%;
+	}
+}
+@media only screen and (max-width : 767px) {
+	header{
+		height: 71px;
+	}
+	.slider-bottom-item{
+		margin: 0 45px
+	}
+
+	.slide-item .slide-text h1 {
+		text-align: center;
+	}
+
+	
+	.btn {
+		margin-top: 20px;
+		margin-left: 50%;
+		transform: translate(-50%, 0);
+		width: 214px;
+	}
+	.slider-bottom-item{
+		margin: 0 30px
+	}
+	.slide-item .slide-text {
+    position: absolute;
+    top: 25px;
+    left: 50%;
+		transform: translate(-50%, 0);
+		width: 260px;
+		text-align: center;
+	}
+	.slider-bottom {
+		border-bottom: none;
+	}
+	.slider-bottom .slider-bottom-wrap .responsive {
+    margin-top: 36px;
+    margin-bottom: 130px;
+	}
+	.slick-dots{
+		bottom: 22px;
+	}
+		.slider-bottom-wrap .fa-angle-left {
+	    left: 40%;
+
+	}
+	.slider-bottom-wrap .fa-angle-right {
+	    right: 40%;
+	}
+
+}
+@media only screen and (max-width : 600px) {
+.slider-bottom-item{
+		margin: 0 10px
+	}
+	.map form{
+		left: 50%;
+		transform: translate(-50%, 0);
+	}
+	.map form{
+		left: 50%;
+		transform: translate(-50%, 0);
+	}
+
+	.slider-bottom-wrap .fa-angle-left {
+	    left: 39%;
+
+	}
+	.slider-bottom-wrap .fa-angle-right {
+	    right: 39%;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	header .language .nice-select{
+		margin-left: -30px;
+	}
+	.slide-text h1{
+		margin-top: 56px;
+	}
+
+
+	.btn a.button {
+		 padding: 12px 76px;
+
+	}
+	.map form{
+		width: 300px;
+
+	}
+	.map form .pd input {
+    width: 265px;
+	}
+	.map form .pd {
+    padding-left: 13px;
+	}
+	.slider-bottom-wrap .fa-angle-left {
+	    left: 37%;
+
+	}
+	.slider-bottom-wrap .fa-angle-right {
+	    right: 37%;
+	}
+
+	
+}
+@media only screen and (max-width : 479px) {
+	.slider-bottom-item{
+		margin: 0 50px
+	}
+
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width : 360px) {
+	.slider-bottom-item{
+		margin: 0 40px
+	}
+		.slider-bottom-wrap .fa-angle-left {
+	    left: 33%;
+
+	}
+	.slider-bottom-wrap .fa-angle-right {
+	    right: 33%;
+	}
+
+}
+
+
+
+@media only screen and (max-width : 320px) {
+	.slider-bottom-item{
+		margin: 0 26px
+	}
+
+	.contacts {
+    margin-top: 27px;
+    margin-right: 49px;
+	}
+		.slider-bottom-wrap .fa-angle-left {
+	    left: 30%;
+
+	}
+	.slider-bottom-wrap .fa-angle-right {
+	    right: 31%;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
